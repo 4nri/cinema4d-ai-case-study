@@ -1,0 +1,38 @@
+{
+  "case": "Cinema 4D + MCP, проект 18",
+  "presentation_date": "2026-11-02",
+  "scope": "Выводы относятся к этому проекту; экономия времени не измерялась.",
+  "facts": {
+    "motions": 6,
+    "unordered_results": 21,
+    "render_takes": 63,
+    "fps": 25,
+    "animation_frames": [
+      0,
+      75
+    ],
+    "larger_far": 8,
+    "larger_near": 7,
+    "non_doubles": 15,
+    "search_trials_in_one_round": 520,
+    "passing_trials_in_that_round": 0,
+    "worst_final_cage_margin_cm": -0.02472256264282091,
+    "accepted_T02_T03_max_matrix_error": 0.0
+  },
+  "references": [
+    "Переписка пользователя с агентом, 27–30 октября 2026",
+    "results18_manifest_final.json",
+    "18_number_shuffle_verification.json",
+    "collider12_final_verification.json",
+    "t06_round3/trials.json",
+    "t06_round3/verified.json",
+    "t06_round3/accepted_verification.json"
+  ],
+  "media_disclosures": [
+    "machine-render.png: кадр рабочего рендера из проекта, не фото реального аппарата.",
+    "t06-before-landing.mp4 и t06-after-landing.mp4: реальные кадры 40–75, 25 fps; в конце добавлена пауза для просмотра.",
+    "pass-shadows-alpha.png: извлечён alpha-канал тестового PNG Shadows.",
+    "Reflections показан с CSS-яркостью ×4 только для наглядности.",
+    "Техническая причина жалобы на отображение прежнего видео не установлена; не утверждаем наличие доказанного бага плеера."
+  ]
+}
