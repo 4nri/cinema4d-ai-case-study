@@ -33,3 +33,8 @@ img[data-zoom]{cursor:zoom-in}img[data-zoom]:focus-visible{outline:2px solid var
 .cover h1{font-size:86px;letter-spacing:-4px}.cover .lead{font-size:36px;line-height:1.25;color:var(--ink)}.cover-context{font-size:23px;color:var(--soft);line-height:1.4;margin-top:30px}.cover-meta{margin-top:27px}.finale-label{position:absolute;left:76px;top:100px;width:330px}.finale-label h2{font-size:48px}.finale-video{margin:auto 95px auto auto}.finale-video video{width:740px;height:740px;object-fit:contain}.matrix caption{color:var(--soft)!important}
 
 .finale-video{position:absolute;top:54px;right:95px;margin:0}
+
+/* Cache correction: explanatory column and two equally scaled comparisons. */
+.intersection-problem h2{font-size:54px}.cache-edit-layout{display:grid;grid-template-columns:340px 1fr;gap:55px;margin-top:42px}.cache-edit-copy{padding-top:4px}.cache-intro{font-size:25px;line-height:1.4;color:var(--soft)}.cache-request{font-size:29px;line-height:1.3;margin-top:30px}.cache-method{font-size:21px;line-height:1.4;color:var(--soft);margin-top:30px}.cache-comparison{display:grid;grid-template-columns:1fr 1fr;gap:0 24px;min-width:0;border-left:1px solid var(--rule);padding-left:28px}.cache-comparison figure{min-width:0}.cache-comparison h3{font-size:27px;margin:0 0 10px}.cache-comparison img{width:100%;height:400px;object-fit:contain}.cache-comparison figcaption{font-size:20px;margin-top:6px;white-space:nowrap}.collision-key{display:inline-block;width:9px;height:9px;background:var(--accent);margin-right:8px}.cache-source{grid-column:1/-1;font-size:16px;color:var(--soft);margin-top:24px}.intersection-problem .takeaway{font-size:23px}
+
+.cache-comparison img{height:380px}
