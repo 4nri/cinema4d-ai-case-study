@@ -1,0 +1,74 @@
+{
+  "scope": "Recorded simulation trials, not unique seeds or every execution. Different settings may reuse a seed. Excludes standalone tests and repeated baking outside these journals.",
+  "total": 2428,
+  "journals": [
+    {
+      "file": "work/area08_trials.json",
+      "records": 64
+    },
+    {
+      "file": "work/compact07_trials.json",
+      "records": 3
+    },
+    {
+      "file": "work/repair18/clean_search.json",
+      "records": 601
+    },
+    {
+      "file": "work/repair18/fine_trials.json",
+      "records": 15
+    },
+    {
+      "file": "work/repair18/floor_separation_trials.json",
+      "records": 3
+    },
+    {
+      "file": "work/repair18/sat/clean_search.json",
+      "records": 528
+    },
+    {
+      "file": "work/repair18/trials.json",
+      "records": 9
+    },
+    {
+      "file": "work/repair18/trials_b.json",
+      "records": 24
+    },
+    {
+      "file": "work/repair18/tweaks.json",
+      "records": 18
+    },
+    {
+      "file": "work/seed08_trials.json",
+      "records": 176
+    },
+    {
+      "file": "work/seed08_trials_tuned.json",
+      "records": 16
+    },
+    {
+      "file": "work/seedonly18/trials.json",
+      "records": 80
+    },
+    {
+      "file": "work/spin08_timed_trials.json",
+      "records": 8
+    },
+    {
+      "file": "work/spin08_trials.json",
+      "records": 8
+    },
+    {
+      "file": "work/t06_round3/trials.json",
+      "records": 520
+    },
+    {
+      "file": "work/upper_rolling_trials.json",
+      "records": 2
+    },
+    {
+      "file": "work/variants18_trials.json",
+      "records": 353
+    }
+  ]
+}
