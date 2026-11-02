@@ -34,5 +34,11 @@
     "pass-shadows-alpha.png: извлечён alpha-канал тестового PNG Shadows.",
     "Reflections показан с CSS-яркостью ×4 только для наглядности.",
     "Техническая причина жалобы на отображение прежнего видео не установлена; не утверждаем наличие доказанного бага плеера."
-  ]
+  ],
+  "update_2026_11_02": {
+    "reference": "Original user-supplied image_2026-09-28_17-47-56.png, resized for web.",
+    "screenshots": "Actual Cinema 4D UI captures of open version 18: Takes manager and Scene Annotation. Cropped only; no UI text reconstructed.",
+    "take_count": "21 result groups, each with 3 render takes = 63. Other groups collapsed in screenshot.",
+    "videos": "Autoplay, muted and looping on active slide. Paused on inactive slides."
+  }
 }
