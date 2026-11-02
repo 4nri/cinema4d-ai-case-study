@@ -40,5 +40,9 @@
     "screenshots": "Actual Cinema 4D UI captures of open version 18: Takes manager and Scene Annotation. Cropped only; no UI text reconstructed.",
     "take_count": "21 result groups, each with 3 render takes = 63. Other groups collapsed in screenshot.",
     "videos": "Autoplay, muted and looping on active slide. Paused on inactive slides."
+  },
+  "intersection_illustrations": {
+    "projection": "Actual saved points and transforms: manual11_source.json, sample 16 (frame 4 at four samples/frame), die A, upper ramp. Right state adds manual11_solution.json offset. Side projection Z/Y, not a Cinema 4D screenshot.",
+    "methods": "Four schematic side-view SVG animations explaining growth, clipping, translation and raised platform collider; not simulation captures."
   }
 }
