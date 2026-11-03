@@ -74,3 +74,6 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 
 .video-slide .comparison-large figcaption{display:block;position:relative;height:110px;min-height:110px;padding-bottom:32px}
 .comparison-large figcaption small{position:absolute;left:0;bottom:0;margin:0;padding:0}
+
+/* Cover title is the display-size exception. */
+#deck .cover h1{font-size:150px;line-height:.92}
