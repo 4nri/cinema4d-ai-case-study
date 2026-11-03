@@ -49,3 +49,28 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 
 /* One title scale throughout the deck, including cover and finale. */
 #deck .slide h1,#deck .slide h2{font-size:76px;line-height:.98;letter-spacing:0}
+
+/* Alignment audit: common title/content rhythm and comparison axes. */
+#deck .slide>h2+div,#deck .slide>h2+figure{margin-top:32px}
+#deck .slide>h2+.variation-intro{margin-top:32px}
+.method-illustrations article{display:grid;grid-template-rows:68px 270px 80px auto;align-content:start}
+.method-illustrations p{margin-top:17px}
+.method-illustrations .method-status{margin-top:12px}
+.review-roles{width:1040px;margin-left:auto;margin-right:auto;gap:40px}
+.review-roles p{min-width:0}
+.automation-metrics{padding-left:0;display:grid;grid-template-rows:148px 190px auto;align-content:start}
+.batch-count{align-items:flex-start}.batch-count strong{position:relative;top:-9px}.batch-count p{margin-top:9px}
+.batch-time,.manual-estimate{margin-top:0;padding-top:0}
+.batch-time strong{position:relative;top:-8px}.batch-time p{margin-top:4px}
+.automation-copy p:last-child{margin-bottom:0}
+.six-video{width:696px}.six-video video{width:696px;height:570px;display:block}
+.finale-label{top:64px}.finale-video{top:64px;right:76px}
+.results-points article:first-child{padding-top:0}
+
+.automation-metrics{grid-template-rows:148px 148px auto}
+.review-roles span{display:block;width:max-content;margin-bottom:8px}
+.comparison-large figcaption{display:flex;flex-direction:column;min-height:88px}
+.comparison-large figcaption small{margin-top:auto;padding-top:8px}
+
+.video-slide .comparison-large figcaption{display:block;position:relative;height:110px;min-height:110px;padding-bottom:32px}
+.comparison-large figcaption small{position:absolute;left:0;bottom:0;margin:0;padding:0}
