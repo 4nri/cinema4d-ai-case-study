@@ -121,3 +121,9 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 .render-passes .pass-image{height:460px}
 .finale-label{display:none}.finale-video{top:40px;left:390px;right:auto}.finale-video video{width:820px;height:820px}
 .input-result .reference-frame img{width:884px;height:auto;max-height:none;top:-260px;left:calc(50% - 442px)}
+
+/* One project-wide metric, without unrelated batch timing. */
+.automation-impact .impact-number{flex:1;display:flex;flex-direction:column;justify-content:center;align-items:center;padding-bottom:24px}
+.impact-number strong{font-family:var(--display);font-size:340px;line-height:.95;font-weight:900;letter-spacing:-3px}
+.impact-number p{font-size:38px;line-height:1.2;margin-top:24px}
+.automation-impact .impact-caption{text-align:center;font-size:28px;line-height:1.3;margin-bottom:20px}
