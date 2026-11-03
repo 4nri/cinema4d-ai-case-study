@@ -163,3 +163,6 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 
 .method-illustrations .method-status.result-icon{display:flex;justify-content:center;align-items:center;margin-top:12px}
 .method-illustrations .method-status.result-icon svg{width:48px;height:48px}
+
+.method-illustrations .method-status.result-rejected{color:#b94730}
+.method-illustrations .method-status.result-accepted{color:#28805a}
