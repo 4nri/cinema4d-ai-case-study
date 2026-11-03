@@ -135,3 +135,10 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 .result-icon svg{width:48px;height:48px;fill:none;stroke:currentColor;stroke-width:4;stroke-linecap:round;stroke-linejoin:round}
 .result-rejected{color:#b94730}
 .result-accepted{color:#28805a}
+
+/* Three concise outcomes, without the statistics panel. */
+.results-slide .results-layout{display:block;margin-top:68px}
+.results-slide .results-points{display:flex;flex-direction:column;gap:48px}
+.results-slide .results-points article{align-items:baseline;gap:32px;padding:0}
+.results-slide .results-points article>span{font-size:24px;min-width:42px;padding:0}
+.results-slide .results-points h3{font-size:42px;line-height:1.25;margin:0}
