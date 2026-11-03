@@ -150,3 +150,13 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 #deck .slide-body>.reuse-summary{flex-shrink:0;margin-top:32px;padding-top:0}
 #deck .slide-body>.impact-number{flex:0 0 auto;padding:0}
 .six-video video{height:629px;object-fit:contain}
+
+/* Outcomes illustrated at equal scale, with a shared caption baseline. */
+.results-slide .results-points{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}
+.results-slide .results-points article{display:flex;flex-direction:column;align-items:stretch;gap:28px}
+.results-slide .outcome-media{height:375px;background:#252525;overflow:hidden}
+.results-slide .outcome-media img,.results-slide .outcome-media video{width:100%;height:100%;object-fit:contain}
+.results-slide .outcome-model{background:transparent}
+.results-slide .outcome-title{display:grid;grid-template-columns:32px 1fr;gap:16px;align-items:baseline}
+.results-slide .outcome-title>span{font:20px ui-monospace,monospace;color:var(--soft)}
+.results-slide .results-points h3{font-size:31px;line-height:1.25;font-weight:400;letter-spacing:0}
