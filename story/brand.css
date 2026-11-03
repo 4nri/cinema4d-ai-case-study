@@ -35,3 +35,14 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 .size-panels svg rect[fill='#deded8']{fill:var(--yellow)}
 .reference-frame,.model-frame,.comparison video,.six-video video{border-radius:12px;overflow:hidden}
 .annotation-layout{margin-top:24px}.annotation-interface{width:820px}
+
+/* Clean presentation view: content only; keyboard controls remain available. */
+.slide .eyebrow,.hud,.progress-track{display:none}
+.slide{padding-top:64px;padding-bottom:64px}
+.slide .takeaway,.slide .reuse-summary,.slide .representations article,
+.slide .results-points article,.slide .results-stat,.slide .automation-metrics,
+.slide .batch-time,.slide .manual-estimate,.slide .code-flow div,
+.slide .brief-flow,.slide .result-detail,.slide .matrix-balance,
+.slide .search-resolution,.slide .state-record,.slide .plain-list li,
+.slide .closing-list li,.slide .cache-comparison{border:0}
+.slide .stat-rule{background:transparent}
