@@ -160,3 +160,6 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 .results-slide .outcome-title{display:grid;grid-template-columns:32px 1fr;gap:16px;align-items:baseline}
 .results-slide .outcome-title>span{font:20px ui-monospace,monospace;color:var(--soft)}
 .results-slide .results-points h3{font-size:31px;line-height:1.25;font-weight:400;letter-spacing:0}
+
+.method-illustrations .method-status.result-icon{display:flex;justify-content:center;align-items:center;margin-top:12px}
+.method-illustrations .method-status.result-icon svg{width:48px;height:48px}
