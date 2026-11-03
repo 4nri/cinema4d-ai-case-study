@@ -1,0 +1,48 @@
+{
+  "source_scene": "work/scene18_source.c4d",
+  "rerun_date": "2026-11-03",
+  "area": [
+    -2.496792748570442,
+    11.062848195433617,
+    -53.13512161374092,
+    -32.71816540163411
+  ],
+  "tests": [
+    {
+      "seed": 8,
+      "min_margin_cm": -20.996165453913562,
+      "archive_margin_cm": -20.996165453913562,
+      "max_center_difference_cm": 0.0
+    },
+    {
+      "seed": 0,
+      "min_margin_cm": -9.03240549332158,
+      "archive_margin_cm": -9.03240549332158,
+      "max_center_difference_cm": 0.0
+    },
+    {
+      "seed": 7,
+      "min_margin_cm": -7.414379422972447,
+      "archive_margin_cm": -7.414379422972447,
+      "max_center_difference_cm": 0.0
+    },
+    {
+      "seed": 33,
+      "min_margin_cm": 0.32782996629706673,
+      "archive_margin_cm": 0.32782996629706673,
+      "max_center_difference_cm": 0.0
+    }
+  ],
+  "timed_batch": {
+    "trials": 353,
+    "accepted": 6,
+    "rejected": 347,
+    "outside_area": 344,
+    "bake_and_evaluation_seconds": 235.24136682553217,
+    "manual_seconds_assumed": [
+      10,
+      20
+    ],
+    "manual_time_is_estimate": true
+  }
+}
