@@ -77,3 +77,10 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 
 /* Cover title is the display-size exception. */
 #deck .cover h1{font-size:150px;line-height:.92}
+
+/* Slide transitions: opacity only, with stationary backgrounds and content. */
+#deck .slide{transform:none;transition:opacity 220ms ease}
+#deck .slide.active{transform:none;opacity:1}
+#deck .slide.leaving{transform:none;opacity:0}
+#deck .slide .reveal{animation:none;transform:none}
+@media(prefers-reduced-motion:reduce){#deck .slide{transition:none}}
