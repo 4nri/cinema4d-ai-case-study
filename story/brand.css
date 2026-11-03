@@ -166,3 +166,7 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 
 .method-illustrations .method-status.result-rejected{color:#b94730}
 .method-illustrations .method-status.result-accepted{color:#28805a}
+
+/* Stationary slide backgrounds crossfade; only inner content moves slightly. */
+#deck .slide{transition:opacity 260ms cubic-bezier(.2,.7,.2,1);transform:none}
+@media(prefers-reduced-motion:reduce){#deck .slide{transition:none}}
