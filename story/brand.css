@@ -46,3 +46,6 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 .slide .search-resolution,.slide .state-record,.slide .plain-list li,
 .slide .closing-list li,.slide .cache-comparison{border:0}
 .slide .stat-rule{background:transparent}
+
+/* One title scale throughout the deck, including cover and finale. */
+#deck .slide h1,#deck .slide h2{font-size:76px;line-height:.98;letter-spacing:0}
