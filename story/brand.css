@@ -84,3 +84,40 @@ body[data-theme=dark] .hud button:hover{color:var(--yellow)}body[data-theme=dark
 #deck .slide.leaving{transform:none;opacity:0}
 #deck .slide .reveal{animation:none;transform:none}
 @media(prefers-reduced-motion:reduce){#deck .slide{transition:none}}
+
+/* Media-first slides: explanations remain available in speaker notes. */
+.cover .lead{display:none}.cover-copy{width:680px}.hero-media{width:700px;height:700px;top:100px}.hero-media video{width:700px;height:700px}
+.size-story-grid>div:first-child,.machine-gap-layout>div:first-child,
+.architecture .representations,.real-intersection-layout>div:first-child,
+.landing-copy,.variation-intro,.review-roles,.takes-explanation>p,
+.annotation-intro,.method-illustrations article>p:not(.method-status){display:none}
+.photo-slide .takeaway,.size-story .takeaway,.real-intersection .takeaway,
+.methods-slide .takeaway,.landing-story .takeaway,.variation-story .takeaway,
+.annotation-slide .takeaway,.slide:has(.render-passes) .takeaway,
+.slide:has(.architecture) .takeaway{display:none}
+.size-story-grid,.machine-gap-layout,.architecture,.real-intersection-layout,.landing-layout,.annotation-layout{display:block}
+.size-panels,.machine-gap-pair{width:1200px;margin:0 auto;gap:80px}
+.size-panels svg{height:600px}.machine-gap-pair img{height:600px}
+.size-panels figcaption,.machine-gap-pair figcaption{font-size:23px;margin-top:10px}
+.architecture .cube-diagram{width:940px;height:640px;margin:0 auto}
+.real-intersection-layout figure{width:884px;margin:0 auto}
+.intersection-callout,.real-intersection-layout img{height:630px}
+.landing-layout figure{width:880px;margin:0 auto}.landing-layout video{width:880px;height:632px}
+.variation-proof{width:1448px}.variation-proof video{width:1448px;height:515px}
+.variation-labels{padding-bottom:14px}.variation-proof figcaption{margin-top:16px}
+.method-illustrations article{grid-template-rows:68px 480px auto}.method-illustrations svg{height:480px}
+.video-slide .comparison-large{width:1280px;gap:40px}
+.video-slide .comparison-large video{height:530px}
+.video-slide .comparison-large figcaption{height:108px;min-height:108px}
+.six-video{width:780px}.six-video video{width:780px;height:639px}
+.annotation-interface{width:1020px}.annotation-layout figure{width:1020px;margin:0 auto}
+.annotation-layout .annotation-interface img{max-height:620px;object-fit:contain}
+.annotation-layout figcaption{margin-top:12px}
+.input-result .reference-frame,.input-result .model-frame{height:610px}
+.input-result .reference-frame img,.input-result .model-frame img{height:610px;max-height:610px;object-fit:contain}
+.takes-layout{grid-template-columns:450px 1fr;gap:60px;align-items:center}
+.take-list-shot img{max-height:620px;height:620px;width:100%;object-fit:contain}
+.takes-explanation{padding-top:0}.takes-explanation figure{margin:0}.takes-explanation img{width:100%;max-height:580px;object-fit:contain}
+.render-passes .pass-image{height:460px}
+.finale-label{display:none}.finale-video{top:40px;left:390px;right:auto}.finale-video video{width:820px;height:820px}
+.input-result .reference-frame img{width:884px;height:auto;max-height:none;top:-260px;left:calc(50% - 442px)}
