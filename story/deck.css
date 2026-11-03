@@ -743,9 +743,6 @@ figure img, figure video {
   object-fit: contain;
 }
 
-.render-passes figure:last-child img {
-  filter: brightness(4);
-}
 
 .render-passes figcaption {
   display: flex;
@@ -2661,18 +2658,13 @@ body[data-theme="dark"] .hud-right button:hover {
 }
 }
 
-/* Render-layer teaching demo; PNG previews, not an EXR composite. */
-.render-demo { grid-template-columns: repeat(4,minmax(0,1fr)); gap:24px; }
-.render-demo .pass-image { height:365px; background:#a8afab; isolation:isolate; }
-.render-demo .pass-image img { width:472px; height:472px; top:-100px; left:calc(50% - 290px); max-width:none; }
-.render-demo .pass-image .demo-beauty { mix-blend-mode:screen; filter:none; }
-.render-demo .pass-image .demo-shadow { mix-blend-mode:multiply; filter:invert(1); }
-.render-demo .pass-image .demo-reflection { mix-blend-mode:screen; filter:brightness(4); }
-.render-demo .pass-composite .demo-shadow { animation:layer-shadow 9s infinite; }
-.render-demo .pass-composite .demo-reflection { animation:layer-reflection 9s infinite; }
-.render-demo .pass-composite .demo-beauty { animation:layer-beauty 9s infinite; }
-@keyframes layer-shadow { 0%,5%,100%{opacity:0} 12%,92%{opacity:1} }
-@keyframes layer-reflection { 0%,25%,100%{opacity:0} 32%,92%{opacity:1} }
-@keyframes layer-beauty { 0%,45%,100%{opacity:0} 52%,92%{opacity:1} }
-.slide:not(.active) .pass-composite img { animation-play-state:paused; }
-@media(prefers-reduced-motion:reduce){.render-demo .pass-composite img {animation:none;opacity:1;}}
+/* EXR previews composited in linear space before display conversion. */
+.render-demo { grid-template-columns:repeat(4,minmax(0,1fr));gap:24px; }
+.render-demo .pass-image { height:365px;background:#898989;isolation:isolate; }
+.render-demo .pass-image img { width:600px;height:600px;top:-220px;left:calc(50% - 417px);max-width:none;mix-blend-mode:normal;filter:none; }
+.render-demo .pass-composite .composite-floor {animation:comp-floor 9s infinite;}
+.render-demo .pass-composite .composite-final {animation:comp-final 9s infinite;}
+@keyframes comp-floor {0%,25%,100%{opacity:0}26%,94%{opacity:1}}
+@keyframes comp-final {0%,50%,100%{opacity:0}51%,94%{opacity:1}}
+.slide:not(.active) .pass-composite img {animation-play-state:paused;}
+@media(prefers-reduced-motion:reduce){.render-demo .pass-composite img{animation:none;opacity:1;}}
